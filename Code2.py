@@ -106,7 +106,7 @@ mycon.close()
 x = True
 while x == True:
     print(
-        "These are the options that you can use: 1: Every player’s score for each hole. 2: The player’s name and hole number of any score of one for a hole (hole-in-one). 3: The average score for the round. 4: The average score for each hole.")
+        "These are the options that you could use: 1: Every player’s score for each hole. 2: The player’s name and hole number of any score of one for a hole (hole-in-one). 3: The average score for the round. 4: The average score for each hole.")
     Choice3 = int(input("Enter your choice. 1, 2, 3 or 4?"))
     if Choice3 == 1:
         for v in range(0, CourseHoles):
